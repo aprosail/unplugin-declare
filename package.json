@@ -7,9 +7,14 @@
     "format": "prettier --write .",
     "review": "prettier --check . && oxlint"
   },
+  "dependencies": {
+    "unplugin": "^2.3.10"
+  },
   "devDependencies": {
     "oxlint": "^1.14.0",
     "prettier": "^3.6.2",
-    "prettier-plugin-sh": "^0.18.0"
+    "prettier-plugin-sh": "^0.18.0",
+    "rolldown": "^1.0.0-beta.35",
+    "typescript": "^5.9.2"
   }
 }
